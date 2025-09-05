@@ -9,6 +9,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+// Cicero - 4681488
 @Entity
 @Table(name = "tarefas")
 public class Tarefa {
@@ -57,5 +58,4 @@ public class Tarefa {
         this.responsavel = responsavel;
     }
 
-    
 }
